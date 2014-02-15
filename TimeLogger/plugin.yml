@@ -1,0 +1,12 @@
+name: TimeLogger
+main: me.marty212.TimeLogger.TimeLogger
+version: 1.0
+permissions:
+  TimeLogger.admin:
+    description: Allows the member to see people's time ingame.
+    default: false;
+commands:
+  getplayertime:
+    description: Sets the level.
+    permission: TimeLogger.admin
+    usage: /getplayertime [player]
